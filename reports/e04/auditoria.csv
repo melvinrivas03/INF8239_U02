@@ -1,0 +1,11 @@
+clase,n_train,n_test,media_pixel_train
+T-shirt/top,6000,1000,83.0
+Trouser,6000,1000,56.8
+Pullover,6000,1000,96.1
+Dress,6000,1000,66.0
+Coat,6000,1000,98.3
+Sandal,6000,1000,34.9
+Shirt,6000,1000,84.6
+Sneaker,6000,1000,42.8
+Bag,6000,1000,90.2
+Ankle boot,6000,1000,76.8

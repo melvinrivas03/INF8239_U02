@@ -1,0 +1,2 @@
+CNN: accuracy 0.8719 vs 0.8218 de la regresión logística (+5.0 puntos); F1-macro 0.8726 vs 0.8210.
+Costo: 56,714 parámetros vs 7,850; entrenamiento 133.4 s vs 48.3 s; inferencia de 10,000 imágenes 2213 ms vs 36 ms; tamaño 225 KB vs 62 KB.

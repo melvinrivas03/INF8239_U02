@@ -25,3 +25,9 @@
 - Se ajustó la lectura del archivo con `quoting=QUOTE_NONE` porque las comillas de algunos mensajes rompían el parseo.
 
 La responsabilidad sobre los datos, el código, las referencias y las conclusiones es del estudiante.
+
+## Ejercicio 04 (CNN y Model Card)
+- **Uso:** Claude (Anthropic) generó el código base del módulo `vision.py`, el notebook, las pruebas y la plantilla de la Model Card.
+- **Prompt relevante:** "Revisa el mandato del Ejercicio 04 y construye la CNN con Fashion-MNIST, curvas, errores por clase, costo y Model Card."
+- **Verificado por el estudiante:** ejecución completa en Colab, que las cifras de la Model Card coincidan con `reports/e04/resultados.csv`, y que la prueba oficial solo se use en la evaluación final.
+- **Correcciones:** la época se elige con validación y no con prueba; la Model Card se genera con las cifras reales de la ejecución en lugar de valores escritos a mano.

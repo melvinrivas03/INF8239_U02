@@ -41,3 +41,11 @@ PYTHONPATH=src python -m pytest -q
 | Baseline | 0.000 | — | 0.000 | 0 | 134 |
 | TF-IDF + Naive Bayes | 0.932 | 1.000 | 0.873 | 0 | 17 |
 | TF-IDF + Regresión logística | 0.951 | 0.962 | 0.940 | 5 | 8 |
+
+## Ejercicio 04 · Clasificador visual con CNN y Model Card
+- **Notebook:** `notebooks/04_cnn_fashion_mnist.ipynb` (requiere `torch`, incluido en Colab).
+- **Datos:** Fashion-MNIST (Zalando Research, licencia MIT), descarga automática con `inf8239_u02.vision.download_fashion_mnist()`.
+- **Partición:** prueba oficial reservada; validación estratificada del 10 % del entrenamiento (`random_state=42`).
+- **Modelos:** línea base (Dummy y regresión logística sobre píxeles) y CNN pequeña en PyTorch.
+- **Resultados:** `reports/e04/` (CSV, curvas, matriz de confusión, errores, decisión). **Model Card:** `docs/model_card.md`.
+- **Pruebas:** `tests/test_vision.py`.
