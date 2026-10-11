@@ -1,0 +1,7 @@
+Fecha (UTC): 2026-10-11 02:13
+Entorno: Google Colab
+Python: 3.13.16
+Sistema: Linux-6.6.122+-x86_64-with-glibc2.39
+Model name:                              Intel(R) Xeon(R) CPU @ 2.20GHz
+Nucleos: 2
+scikit-learn: 1.6.1
